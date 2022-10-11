@@ -1,0 +1,383 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image-container {
+  background-color: #f3f7fb;
+}
+
+.card-border-radius {
+  border-radius: 30px !important;
+  background-color: #ffffff;
+}
+
+.color-form {
+  background-color: #ffffff;
+}
+
+.image-size-h img {
+  height: 50px;
+  width: 50px;
+}
+
+.image-border-radius {
+  border-radius: 30px;
+}
+
+.button-container {
+  color: white;
+  padding: 10px;
+  background-color: #3aa58b;
+  border-radius: 5px;
+  border: none;
+}
+
+.box-shadow {
+  box-shadow: inset 0px 1px 1px white, 3px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.border-radius {
+  border-radius: 1rem !important;
+  border: none !important;
+}
+
+.text-align {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.input-control {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f5f7fb;
+}
+
+.home-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-page {
+  background: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 80%;
+  height: 85%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: inset 0px 1px 1px white, 3px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+  flex: 0.8;
+  background-color: #f5f7fb;
+}
+
+.chat {
+  flex: 2;
+}
+
+.navbar-container {
+  background-color: #f5f7fb;
+  color: #ddddf7;
+}
+.navbar-logo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.navbar-image {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-image h3 {
+  color: #4d426d;
+}
+.navbar-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  background-color: #ddddf7;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navbar-logo span {
+  font-style: 12px;
+  color: #000;
+}
+
+.navbar-container button {
+  background-color: #3aa58b;
+  font-style: 16px;
+  color: #ddddf7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.chat-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.chat-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.margin-left-7 {
+  margin-left: 7px !important;
+}
+
+.margin-right-7 {
+  margin-right: 7px !important;
+}
+
+.margin-card {
+  width: 100%;
+  margin: 0px 15px;
+  /* margin: 0px 7px 0px 15px; */
+}
+.min-height {
+  min-height: 80vh;
+}
+.chat-user-info {
+  padding-top: inherit;
+  border-bottom: 0.1px solid gray;
+  padding: 10px;
+  width: 100%;
+}
+.chat-user-info h6 {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+.chat-user-info span {
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+}
+
+.chat-info {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 50px;
+  background-color: #147a96;
+  padding: 10px;
+  color: #fff;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 10px;
+  background-color: #f3f7fb;
+  margin-top: 30px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.chat-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #f3f7fb;
+}
+
+.chat-input input::placeholder {
+  color: lightgray;
+}
+
+.chat-messages {
+  height: calc(100% - 110px);
+  overflow: scroll;
+}
+
+.chat-message-content img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-message-content {
+  display: flex;
+  flex-direction: row;
+  max-width: 90% !important;
+}
+
+.chat-message-container {
+  width: 100%;
+  color: #282c34;
+  display: flex;
+}
+
+.chat-message-content p {
+  background-color: #f5f7fb;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  text-align: left;
+}
+
+.chat-message-content {
+  max-width: 70%;
+  gap: 10px;
+}
+
+.chat-message-container.user-text {
+  justify-content: flex-end;
+}
+
+.user-text .chat-message-content {
+  flex-direction: row-reverse;
+}
+.user-text p {
+  background-color: #4d426d;
+  padding: 10px 20px;
+  border-radius: 10px 0px 10px 10px;
+  color: #f5f7fb;
+}
+
+.error-msg {
+  font-size: 15px;
+  padding: 20px;
+  color: crimson;
+}
+
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+.btn-container {
+  border-radius: 50% !important;
+  background-color: #3aa58c !important;
+  color: white !important;
+  height: 50px;
+  width: 55px;
+}
+
+.btn-container .icon-image {
+  height: 30px;
+  width: 30px;
+}
+
+.image-h-w img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.search-container {
+  border-bottom: 1px solid gray;
+}
+
+.search-form {
+  padding: 10px;
+}
+
+.search-form input {
+  background-color: transparent;
+  border: none;
+  color: rgb(54, 52, 52);
+  outline: none;
+}
+
+.user-chat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(59, 57, 57);
+  cursor: pointer;
+}
+.user-chat:hover {
+  background-color: #4d426d;
+  color: white;
+}
+
+.user-chat img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-chat-info span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-chat-info p {
+  font-size: 14px;
+  color: lightgray;
+}
